@@ -84,7 +84,7 @@ def regression_and_rf_for_socclay():
         
         return importances
     
-    df_raw = pd.read_excel(r'/Users/rehnan/Library/CloudStorage/OneDrive-Chalmers/Projektet/bridge_data_/csv_2022/raw_data/merged_file_for_regression_final_2.xlsx')
+    df_raw = pd.read_excel(file_path_here
     df = clean_data(df_raw)
     
     # List of predictors
