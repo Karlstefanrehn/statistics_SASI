@@ -4,8 +4,7 @@ def wilcoxon():
     from scipy.stats import wilcoxon
 
     # Path to your Excel file
-    file_path = "/Users/rehnan/Library/CloudStorage/OneDrive-Chalmers/Projektet/bridge_data_/csv_2022/raw_data/carbon_plot_1607st_nov16_second_VERSION_7limit_both.xlsx"
-
+    file_path = "/file_path
     # Read the Excel file
     df = pd.read_excel(file_path)
 
